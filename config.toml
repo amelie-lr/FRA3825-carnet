@@ -1,7 +1,7 @@
 baseURL = "https://amelie-lr.github.io/FRA3825-carnet/"
 languageCode = "fr"
 defaultContentLanguage = "fr"
-title = "Titre"
+title = "Amélie Levasseur-Raymond"
 theme = "cupper-hugo-theme"
 enableGitInfo = true
 
@@ -17,14 +17,14 @@ quality = 99
 [params]
 description = "description"
 homeMetaContent = ""
-footer = "Texte du footer"
+footer = "Amélie Levasseur-Raymond"
 dateFormat = "Jan 2, 2006"
 codePenUser = "someUser"
 katex = true
 hideHeaderLinks = false
 search = true
 showThemeSwitcher = true
-defaultDarkTheme = false
+defaultDarkTheme = true
 moveFooterToHeader = false
 logoAlt = "Description si le logo ne s'affiche pas"
 customCss = [ "css/custom_01.css", "css/custom_02.css" ]
@@ -36,24 +36,29 @@ url = "/"
 weight = 1
 
 [[menu.nav]]
-name = "Posts"
-url = "/posts/"
-weight = 2
+name = "À propos"
+url = "/about/"
+weight = 10
 
 [[menu.nav]]
-name = "Documentation"
-url = "/docs/"
-weight = 3
+name = "Projets"
+url = "/posts/"
+weight = 20
 
 [[menu.nav]]
 name = "Tags"
 url = "/tags/"
-weight = 4
+weight = 30
 
 [[menu.nav]]
-name = "À propos"
-url = "/about/"
-weight = 5
+name = "Crédits"
+url = "/credits/"
+weight = 30
+
+[[menu.nav]]
+name = "Documentation"
+url = "/docs/"
+weight = 40
 
 [markup]
 defaultMarkdownHandler = "goldmark"
