@@ -1,3 +1,41 @@
 .your-custom-class-01 {
   display: block;
 }
+
+
+:root {
+  --darker: #291f2e;
+  --dark: #36293d;
+  --medium: #46344e;
+  --coral: #FF6347;
+}
+
+
+html,
+body {
+  background-color: var(--darker);
+  color: white;
+  font-family: Roboto, sans-serif;
+}
+
+header {
+  font-family: Roboto Slab, serif;
+}
+h1, 
+h2, 
+h3,
+h4,
+h5,
+h6 {
+  font-family: Roboto Slab, serif;
+  font-weight: normal;
+  color: var(--coral);
+}
+
+.pattern [aria-current]{
+  background-color: var(--coral);
+}
+.pattern a {
+  font-family: Roboto Slab;
+  font-weight: normal;
+}

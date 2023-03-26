@@ -15,7 +15,7 @@ posts = "/:filename/"
 quality = 99
 
 [params]
-description = "description"
+description = "Amélie Levasseur-Raymond"
 homeMetaContent = ""
 footer = "Amélie Levasseur-Raymond"
 dateFormat = "Jan 2, 2006"
@@ -23,11 +23,11 @@ codePenUser = "someUser"
 katex = true
 hideHeaderLinks = false
 search = true
-showThemeSwitcher = true
-defaultDarkTheme = true
+showThemeSwitcher = false
+defaultDarkTheme = false
 moveFooterToHeader = false
-logoAlt = "Description si le logo ne s'affiche pas"
-customCss = [ "css/custom_01.css", "css/custom_02.css" ]
+logoAlt = "Amélie Levasseur-Raymond"
+customCss = [ "css/custom_01.css", "css/roboto.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]
@@ -41,7 +41,7 @@ url = "/about/"
 weight = 10
 
 [[menu.nav]]
-name = "Projets"
+name = "L'1nfograph3"
 url = "/posts/"
 weight = 20
 
