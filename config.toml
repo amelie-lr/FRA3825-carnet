@@ -15,10 +15,10 @@ posts = "/:filename/"
 quality = 99
 
 [params]
-description = "Amélie Levasseur-Raymond"
+description = "**Amélie** Levasseur&#8209;Raymond"
 homeMetaContent = ""
 footer = "Amélie Levasseur-Raymond"
-dateFormat = "Jan 2, 2006"
+dateFormat = "2 January 2006"
 codePenUser = "someUser"
 katex = true
 hideHeaderLinks = false
@@ -27,7 +27,7 @@ showThemeSwitcher = false
 defaultDarkTheme = false
 moveFooterToHeader = false
 logoAlt = "Amélie Levasseur-Raymond"
-customCss = [ "css/custom_01.css", "css/roboto.css" ]
+customCss = [ "css/custom_01.css", "css/fonts.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]

@@ -1,6 +1,53 @@
 {{ define "main" }}
   <main id="main">
     <h1>{{ .Title }}</h1>
+
+    <div class="info">
+    <div class="date">
+      {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
+      {{ $publishDate := .PublishDate }}
+      <strong>{{ T "publish_date" }} </strong>{{ $publishDate.Format $dateFormat }}
+      {{ with .Lastmod }}
+        {{ if gt . $publishDate }}
+          &nbsp;|&nbsp; Révisé : 
+          <strong>{{ T "last_updated" }} </strong>{{ .Format $dateFormat }}
+        {{ end }}
+      {{ end }}
+    </div>
+
+    {{ with .Params.tags }}
+      <div class="tags">
+        <strong>{{ T "tags" }} </strong>
+        <ul aria-label="{{ T "aria_label_tags" }}">
+          {{ range . }}
+            <li>
+              <svg class="tag-icon" aria-hidden="true" viewBox="0 0 177.16535 177.16535" focusable="false">
+                <use href="#tag"></use>
+              </svg>
+              {{ $href := print ("tags/" | relLangURL) (. | urlize) "/" }}
+              <a href="{{ $href }}">{{ . }}</a>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    {{ end }}
+  </div>
+
     {{ .Content }}
+
+    <div class="nextprevious">
+
+    </div>
+    <div class="previous-post">
+      {{ if .PrevPage }}
+      <a class="link-reverse" href="{{ .PrevPage.Permalink }}?ref=footer">« {{ .PrevPage.Title | truncate 50 "..."}}</a>
+      {{ end }}
+    </div>
+    <div class="next-post">
+      {{ if .NextPage }}
+      <a class="link-reverse" href="{{ .NextPage.Permalink }}?ref=footer">{{ .NextPage.Title | truncate 50 "..." }} »</a>
+      {{ end }}
+    </div>
+    </div>
   </main>
 {{ end }}
