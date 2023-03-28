@@ -31,12 +31,12 @@ customCss = [ "css/custom_01.css", "css/fonts.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
 
 [[menu.nav]]
-name = "Accueil"
+name = "Accueillir"
 url = "/"
 weight = 1
 
 [[menu.nav]]
-name = "À propos"
+name = "Être"
 url = "/about/"
 weight = 10
 
@@ -46,12 +46,12 @@ url = "/posts/"
 weight = 20
 
 [[menu.nav]]
-name = "Tags"
+name = "Étiquetter"
 url = "/tags/"
 weight = 30
 
 [[menu.nav]]
-name = "Crédits"
+name = "Créditer"
 url = "/credits/"
 weight = 30
 

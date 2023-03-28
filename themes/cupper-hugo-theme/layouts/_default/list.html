@@ -1,6 +1,9 @@
 {{ define "main" }}
 <main id="main">
   <h1>{{ .Title }}</h1>
+  <p class="page-desc">
+    {{ with .Description }} {{ . | markdownify }} {{ end }}
+  </p>
   {{ if site.Params.search }}
   <input
     id="search"
@@ -9,6 +12,7 @@
     aria-label="{{ T "search_aria_label" }}"
   />
   {{ end }}
+  
   <ul class="patterns-list" id="list">
     {{ range .Pages.ByPublishDate.Reverse }}
     <li>
@@ -26,14 +30,13 @@
         </a>
       </h2>
       <div class="date">
-        {{ $dateFormat := $.Site.Params.dateFormat | default "Jan 2, 2006" }}
-        {{ $publishDate := .PublishDate }}
-        <strong>{{ T "publish_date" }} </strong>{{ $publishDate.Format $dateFormat }}
+        {{ $mymonths := index $.Site.Data.mois }}{{ .Date.Day }}
+        {{ index $mymonths (printf "%d" .Date.Month) }} {{ .Date.Year }}
       </div>
   
       {{ with .Params.tags }}
         <div class="tags">
-          <strong>{{ T "tags" }} </strong>
+          <!-- <strong>{{ T "tags" }} </strong> -->
           <ul aria-label="{{ T "aria_label_tags" }}">
             {{ range . }}
               <li>

@@ -1,6 +1,9 @@
 {{ define "main" }}
   <main id="main">
     <h1>{{ .Title }}</h1>
+    <p class="page-desc">
+      {{ with .Description }} {{ . | markdownify }} {{ end }}
+    </p>
     <ul class="patterns-list">
       {{ range .Data.Terms.Alphabetical }}
         <li>

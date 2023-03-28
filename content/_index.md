@@ -1,6 +1,6 @@
 ---
 date: "2017-06-26T18:27:58+01:00"
-title: "Accueil"
+title: "Accueillir"
 ---
 
 Bienvenue dans la page de présentation du Modèle 2. 

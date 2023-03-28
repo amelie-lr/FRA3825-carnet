@@ -5,7 +5,7 @@ tags: [Illustrator, pixel, plan de travail, bogue]
 toc: true
 ---
 
-![capture](/images/1nfograph3/illustrator-artboard-pixel.png)
+![capture](../images/1nfograph3/illustrator-artboard-pixel.png)
 
 Vous est-il déjà arrivé d'exporter un plan de travail Illustrator en PNG pour réaliser que les dimensions étaient de 1 pixel de plus?
 Oui, c'est bien un bogue, mais l'explication et la solution sont simples :
