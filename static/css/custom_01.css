@@ -101,12 +101,27 @@ ul.patterns-list {
 .patterns-list > li .date {
   margin: 0.5rem 0;
 }
-.tags * {
+.list-tags * {
   display: revert;
   list-style: none;
 }
 .patterns-list li + li {
   margin-top: 0;
+}
+
+ul.tags-list {
+  margin-left: 0;
+  text-align: center;
+}
+.tags-list > li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.2rem 0.5rem;
+  background-color: var(--medium);
+}
+.tags-list > li a {
+  border-bottom: 0;
 }
 
 /* main content */
@@ -196,4 +211,8 @@ blockquote p + p {
 .file-tree li {
   background: var(--dark);
   font-size: 0.9rem;
+}
+
+[data-expands] {
+  color: var(--coral);
 }
