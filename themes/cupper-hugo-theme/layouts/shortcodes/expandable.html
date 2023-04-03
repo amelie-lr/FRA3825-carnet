@@ -19,7 +19,7 @@
   {{ if .Get "level" }}
     </h{{ .Get "level"}}>
   {{ end }}
-  <div id="js-expandable-{{ $random }}" {{ with .Get "open" | not }}hidden{{ end }}>
+  <section id="js-expandable-{{ $random }}" {{ with .Get "open" | not }}hidden{{ end }}>
     {{ .Inner | markdownify }}
-  </div>
+  </section>
 </div>

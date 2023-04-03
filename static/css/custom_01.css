@@ -2,6 +2,7 @@
   --darker: #291f2e;
   --dark: #36293d;
   --medium: #46344e;
+  --light: #6c527a;
   --coral: #FF6347;
 }
 
@@ -213,6 +214,45 @@ blockquote p + p {
   font-size: 0.9rem;
 }
 
+
+/* expendable cv */
+
 [data-expands] {
   color: var(--coral);
+}
+.expandable-section {
+  margin-bottom: 1rem;
+  padding: 0;
+  border: 0;
+}
+.expandable-section h2 {
+  padding: 0.5rem 1rem;
+  background-color: var(--dark);
+}
+.expandable-section h2 button {
+  font-size: 1.66rem;
+  font-weight: bold;
+}
+.expandable-section > section {
+  background-color: var(--darker);
+  padding: 0;
+}
+.expandable-section > section > article {
+  margin-top: 0;
+  margin-bottom: 2.5rem;
+}
+.expandable-section .cv-title {
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  color: var(--light);
+}
+.expandable-section .h2-container {
+  font-size: inherit;
+  margin-top: 0.5rem;
+}
+.expandable-section ul li + li {
+  margin-top: 0;
+}
+.expandable-section h3 {
+  color: var(--light);
 }
