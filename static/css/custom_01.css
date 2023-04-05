@@ -2,8 +2,9 @@
   --darker: #291f2e;
   --dark: #36293d;
   --medium: #46344e;
-  --light: #6c527a;
+  --light: #7a5c8a;
   --coral: #FF6347;
+  --coraldark: #542d33;
 }
 
 * + * {
@@ -14,8 +15,11 @@ body {
   background-color: var(--darker);
   color: white;
   font-family: Rokkitt, serif;
-  font-size: calc(1rem + 0.33vw);
+  font-size: calc(0.9rem + 0.33vw);
   line-height: 1.25;
+}
+body a {
+  hyphens: none;
 }
 button {
   background: var(--dark);
@@ -33,31 +37,27 @@ header {
   background-position: right;
 }
 .intro-and-nav > div {
-  padding-left: 0;
   font-size: 1rem;
 }
 .intro {
-  padding-left: 2.25rem;
 }
 .library-desc {
   text-transform: uppercase !important;
-  margin-top: 1.25rem;
 }
 .pattern {
   background-color: var(--dark);
   /*clip-path: polygon(0% 0%, 90% 0%, 100% 50%, 90% 100%, 0% 100%);*/
   clip-path: none;
-  border-radius: 0 999em 999em 0;
+  border-radius: 999em 999em 999em 999em;
   margin-bottom: 0.5rem;
 }
 .pattern a:hover,
 .pattern [aria-current]{
   clip-path: none;
   background-color: var(--coral);
-  border-radius: 0 999em 999em 0;
+  border-radius: 999em 999em 999em 999em;
 }
 .pattern a {
-  padding-left: 2.25rem;
 }
 
 
@@ -97,7 +97,9 @@ ul.patterns-list {
   border: solid white 1px;
   padding: 1rem;
   width: calc(100% / 3);
+  min-width: 11rem;
   height: 15rem;
+  flex-grow: 1;
 }
 .patterns-list > li .date {
   margin: 0.5rem 0;
@@ -128,13 +130,16 @@ ul.tags-list {
 /* main content */
 
 h1, 
-h2, 
-h3,
+h2,
+h3 {
+  font-family: Rokkitt, serif;
+  color: var(--coral);
+}
 h4,
 h5,
 h6 {
   font-family: Rokkitt, serif;
-  color: var(--coral);
+  color: var(--light);
 }
 h1 a:hover, 
 h2 a:hover, 
@@ -142,11 +147,17 @@ h3 a:hover,
 h4 a:hover,
 h5 a:hover,
 h6 a:hover {
-  background-color: rgb(255, 99, 71, 0.2) !important;
+  background-color: var(--coraldark) !important;
 }
 h1 {
   margin-bottom: 2rem;
   text-transform: uppercase;
+}
+.h2-container {
+  margin-top: 3rem;
+}
+.h2-container + .h2-container {
+  margin-top: 1rem;
 }
 .patterns-list h2 {
   line-height: 1.25rem;
@@ -213,6 +224,23 @@ blockquote p + p {
   background: var(--dark);
   font-size: 0.9rem;
 }
+/* .colors li {
+  border: solid 1px white;
+} */
+.colors span {
+  background-color: transparent;
+}
+.note {
+  border: var(--coral) solid 2px;
+  font-size: 1rem;
+  padding: 0.75rem 0;
+}
+.note div svg {
+  margin-right: 0.5rem;
+}
+.footnotes {
+  margin-top: 3rem;
+}
 
 
 /* expendable cv */
@@ -227,7 +255,7 @@ blockquote p + p {
 }
 .expandable-section h2 {
   padding: 0.5rem 1rem;
-  background-color: var(--dark);
+  background-color: var(--coraldark);
 }
 .expandable-section h2 button {
   font-size: 1.66rem;
@@ -235,7 +263,8 @@ blockquote p + p {
 }
 .expandable-section > section {
   background-color: var(--darker);
-  padding: 0;
+  padding: 0 1rem;
+  border-left: solid 2px var(--coral);
 }
 .expandable-section > section > article {
   margin-top: 0;
@@ -244,7 +273,7 @@ blockquote p + p {
 .expandable-section .cv-title {
   text-transform: uppercase;
   font-size: 0.9rem;
-  color: var(--light);
+  color: var(--coral);
 }
 .expandable-section .h2-container {
   font-size: inherit;
@@ -253,6 +282,9 @@ blockquote p + p {
 .expandable-section ul li + li {
   margin-top: 0;
 }
-.expandable-section h3 {
-  color: var(--light);
+
+@media only screen and (max-width: 27rem) {
+  .patterns-list > li {
+    height: auto;
+  }
 }

@@ -3,25 +3,52 @@ date: "2017-06-26T18:27:58+01:00"
 title: "Accueillir"
 ---
 
-Bienvenue dans la page de présentation du Modèle 2. 
+D’infographiste à archiviste – Fusion entre le papier et le numérique
 
-Thème à partir du projet [original Cupper](https://github.com/ThePacielloGroup/cupper).
+{{< note >}}
+Espace en cours de développement. Seulement une partie des contenus sont présents. D'ici à ce que j'aie le temps de tout transférer et rassembler le tout ici, n'hésitez pas à consulter l'ancienne version de mon espace au [amelielr.ca](https://amelielr.ca).
+{{< /note >}}
 
-{{< colors "#00264d, #46344e, #36293d" >}}
-{{< colors "#fa9a85, #, #" >}}
-{{< colors "#ff7f50, #FFA07A, #FF6347" >}}
-{{< colors "#90EE90, #9fedd7, #8fbc8f" >}}
+[Être](about)
+[Ipsum](20211018-baconipsum)
 
-# Titre 1
-## Titre 2
-### Titre 3
-#### Titre 4
-##### Titre 5
-###### Titre 6
+## Recherche graphique
 
-Texte
+<div style="background-color: white; padding: 0.5rem;">
+{{< colors "#36293d, #46344e, #7a5c8a" >}}
+{{< colors "#291f2e, #FF6347, #542d33" >}}
 
-### Arborescence prévue du site
+<p style="color: var(--darker); overflow-wrap: break-word; font-size: 2.5rem; ">
+ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789
+</p>
+
+![image](images/monkeeboy-polygon-23.jpg)
+
+</div>
+
+Pour plus d'exemples d'application des styles, visitez les pages [Balisage en Markdown](docs/balisage) et [Shortcodes](docs/cupper-shortcodes) de la section [Ressources](docs).
+
+## Plan du site
+
+### Arborescence actuelle
+
+{{< fileTree >}}
+* Accueillir
+* Être (cv)
+* L'1nfograph3
+    * Post 1
+    * Post 2
+    * ...
+* Étiquetter
+* Ressources
+    * Balisage en Markdown
+    * Shortcodes
+    * Introduction à Go 
+* Créditer  
+{{< /fileTree >}}
+
+### Arborescence future
+
 {{< fileTree >}}
 * Accueillir
 * Être (cv)
@@ -42,7 +69,7 @@ Texte
     * Portfolio infographie
 * Partager
     * Outils
-    * Liens utiles
+    * Ressources
         * Archivistique
         * Numérique
         * Recueil juridique

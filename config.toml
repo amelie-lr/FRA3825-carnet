@@ -51,14 +51,14 @@ url = "/tags/"
 weight = 30
 
 [[menu.nav]]
-name = "Créditer"
-url = "/credits/"
-weight = 30
-
-[[menu.nav]]
-name = "Documentation"
+name = "Ressources"
 url = "/docs/"
 weight = 40
+
+[[menu.nav]]
+name = "Créditer"
+url = "/credits/"
+weight = 50
 
 [markup]
 defaultMarkdownHandler = "goldmark"
