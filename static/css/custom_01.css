@@ -114,6 +114,7 @@ ul.patterns-list {
 
 ul.tags-list {
   margin-left: 0;
+  margin-top: 2rem;
   text-align: center;
 }
 .tags-list > li {
@@ -154,10 +155,18 @@ h1 {
   text-transform: uppercase;
 }
 .h2-container {
-  margin-top: 3rem;
+  margin-top: 1.5rem;
 }
-.h2-container + .h2-container {
+.h2-container > h2 {
+  margin-top: 1.5rem;
+}
+.h2-container + .h2-container,
+.h2-container + p,
+main p {
   margin-top: 1rem;
+}
+.h2-container > h2 {
+  margin-top: 3rem;
 }
 .patterns-list h2 {
   line-height: 1.25rem;
@@ -169,9 +178,6 @@ main a:hover {
   background-color: var(--medium);
 }
 
-main p {
-  margin-top: 1.5rem;
-}
 main ul,
 main ol {
   margin-top: 0.5rem;
@@ -235,6 +241,9 @@ blockquote p + p {
   font-size: 1rem;
   padding: 0.75rem 0;
 }
+.note div {
+  margin-right: 0.75rem;
+}
 .note div svg {
   margin-right: 0.5rem;
 }
@@ -247,6 +256,9 @@ blockquote p + p {
 
 [data-expands] {
   color: var(--coral);
+}
+.expand-block {
+  margin-top: 3rem;
 }
 .expandable-section {
   margin-bottom: 1rem;

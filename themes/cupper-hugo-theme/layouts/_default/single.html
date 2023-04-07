@@ -27,7 +27,7 @@
                 <use href="#tag"></use>
               </svg>
               {{ $href := print ("tags/" | relLangURL) (. | urlize) "/" }}
-              <a href="{{ $href }}">{{ . }}</a>
+              &nbsp;<a href="{{ $href }}">{{ . }}</a>
             </li>
           {{ end }}
         </ul>
