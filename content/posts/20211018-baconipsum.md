@@ -5,7 +5,7 @@ tags: [lorem ipsum]
 toc: true
 ---
 
-Comment ça se fait que c'est seulement maintenant que j'apprends que ça existe?!  
+Comment ça se fait que c'est seulement maintenant que j'apprends que ça existe?! [^note]
 
 {{< blockquote author="[Bacon Ipsum](https://baconipsum.com)" >}}
 Bacon ipsum dolor amet shank pork chop picanha brisket, corned beef meatloaf venison spare ribs strip steak alcatra flank. Jerky andouille drumstick, chicken pork belly turducken kielbasa shank capicola. Doner ham hock filet mignon chuck porchetta. Biltong tail shankle, chuck shank strip steak ham hock pork belly short ribs burgdoggen pork chop short loin pork loin ball tip.
@@ -22,3 +22,5 @@ Sabertooth rice eel three-toothed puffer fierasfer blackfish Rabbitfish eel cod 
 
 Goby woody sculpin; ponyfish Moses sole; snapper sardine, zebrafish goldspotted killifish, surf sardine. Turbot longfin escolar Atlantic trout halosaur, regal whiptail catfish. Houndshark soldierfish remora kingfish clingfish." Ray sand eel Black scalyfin shrimpfish paradise fish daggertooth pike conger Blenny: drum longnose lancetfish rock cod anchovy redmouth whalefish. Queen danio blue gourami dorado torpedo lemon shark gizzard shad. Peladillo vendace: spiny eel, shark snoek, Atlantic salmon milkfish viperfish, kaluga pikeblenny sea toad morid cod Indian mul perch jack tiger barb. Eel-goby cisco Old World rivuline longnose whiptail catfish mudfish Australian grayling aholehole Bigscale pomfret bamboo shark. Bristlemouth morwong Raccoon butterfly fish dogfish shark moray eel monkfish Reef triggerfish.
 {{< /blockquote >}}
+
+[^note]: Si vous préférez l'original : [lipsum.com](https://www.lipsum.com/)

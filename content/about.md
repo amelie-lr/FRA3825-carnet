@@ -3,7 +3,9 @@ date: "2023-03-27"
 title: "Être"
 ---
 
-Intro
+Passant de la création de documents à leur gestion et préservation, je débute un nouveau chapitre professionnel en archivistique. J’espère pouvoir mettre à contribution mon grand sens de l’organisation et ma polyvalence tout en continuant de développer mes nouvelles connaissances en gestion de l’information. Voici un aperçu de mon curriculum vitæ.
+
+<div class="expand-block">
 
 {{< expandable label="Étudier" level="2" >}}
 <article>
@@ -116,5 +118,5 @@ Bénévole pour Le Grand Défi Pierre Lavoie : préparation du site d'arrivée d
 
 {{< /expandable >}}
 
-
+</div>
 

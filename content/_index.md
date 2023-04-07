@@ -9,9 +9,6 @@ D’infographiste à archiviste – Fusion entre le papier et le numérique
 Espace en cours de développement. Seulement une partie des contenus sont présents. D'ici à ce que j'aie le temps de tout transférer et rassembler le tout ici, n'hésitez pas à consulter l'ancienne version de mon espace au [amelielr.ca](https://amelielr.ca).
 {{< /note >}}
 
-[Être](about)
-[Ipsum](20211018-baconipsum)
-
 ## Recherche graphique
 
 <div style="background-color: white; padding: 0.5rem;">
@@ -67,12 +64,14 @@ Pour plus d'exemples d'application des styles, visitez les pages [Balisage en Ma
         * Vélo sans auto
         * Cocktails
     * Portfolio infographie
-* Partager
+* Partager[^note]
     * Outils
     * Ressources
         * Archivistique
         * Numérique
         * Recueil juridique
+    * Lectures
 * Étiquetter
 * Créditer  
 {{< /fileTree >}}
+[^note]: Cette section sera propice à changements. Je devrai d'abord lister tous les liens utiles que j'ai accumulés au fil du temps afin de les regrouper. Peut-être que les étiquettes aideront à simplifier la structure.
