@@ -20,6 +20,9 @@ https://brianli.com/adding-next-previous-post-links-in-hugo/
 - Solution pour avoir les mois en français dans les dates de publication (je n'ai pas encore réussi à corriger les dates de modification par contre)  
 https://jp.caruana.fr/posts/2020/02/22/franciser-la-date-dans-hugo/
 
+- Comment faire pour que les liens externes s'ouvrent automatiquement dans une nouvelle fenêtre/onglet  
+https://digitaldrummerj.me/hugo-links-to-other-pages/
+
 ## Style graphique
 
 ### Thème  

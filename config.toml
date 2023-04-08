@@ -4,9 +4,11 @@ defaultContentLanguage = "fr"
 title = "Amélie Levasseur-Raymond"
 theme = "cupper-hugo-theme"
 enableGitInfo = true
+googleAnalytics = ""
 
 [taxonomies]
 tag = "tags"
+category = "categories"
 
 [permalinks]
 posts = "/:filename/"
@@ -15,9 +17,11 @@ posts = "/:filename/"
 quality = 99
 
 [params]
+author = "Amélie Levasseur-Raymond"
+Subtitle = ""
 description = "**Amélie** Levasseur&#8209;Raymond"
 homeMetaContent = ""
-footer = "Amélie Levasseur-Raymond"
+footer = "Les contenus de ce site sont sous [licence CC BY-NC-SA](http://creativecommons.org/licenses/by-nc-sa/4.0/) : Attribution - Pas d’utilisation commerciale - Partage dans les mêmes conditions"
 dateFormat = "2 January 2006"
 codePenUser = "someUser"
 katex = true
@@ -29,6 +33,8 @@ moveFooterToHeader = false
 logoAlt = "Amélie Levasseur-Raymond"
 customCss = [ "css/custom_01.css", "css/fonts.css" ]
 customJs = [ "js/custom_01.js", "js/custom_02.js" ]
+instagramLink = ""
+
 
 [[menu.nav]]
 name = "Accueillir"

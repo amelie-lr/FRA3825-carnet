@@ -27,7 +27,12 @@ button {
 img {
   max-height: none;
 }
-
+::selection {
+  background: var(--light); /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: var(--light); /* Gecko Browsers */
+}
 
 /* header et nav */
 
@@ -110,6 +115,7 @@ ul.patterns-list {
 }
 .patterns-list li + li {
   margin-top: 0;
+  border-top: 1px solid;
 }
 
 ul.tags-list {
@@ -167,6 +173,9 @@ main p {
 }
 .h2-container > h2 {
   margin-top: 3rem;
+}
+.h2-container h3 + p {
+  margin-top: 0;
 }
 .patterns-list h2 {
   line-height: 1.25rem;
@@ -299,4 +308,8 @@ blockquote p + p {
   .patterns-list > li {
     height: auto;
   }
+}
+
+footer {
+  margin-bottom: 2rem;
 }

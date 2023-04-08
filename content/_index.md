@@ -3,7 +3,7 @@ date: "2017-06-26T18:27:58+01:00"
 title: "Accueillir"
 ---
 
-D’infographiste à archiviste – Fusion entre le papier et le numérique
+![D'infographiste à archiviste -- Fusion entre le papier et le numérique](images/infographiste-archiviste.png)
 
 {{< note >}}
 Espace en cours de développement. Seulement une partie des contenus sont présents. D'ici à ce que j'aie le temps de tout transférer et rassembler le tout ici, n'hésitez pas à consulter l'ancienne version de mon espace au [amelielr.ca](https://amelielr.ca).
@@ -64,7 +64,7 @@ Pour plus d'exemples d'application des styles, visitez les pages [Balisage en Ma
         * Vélo sans auto
         * Cocktails
     * Portfolio infographie
-* Partager[^note]
+* Partager
     * Outils
     * Ressources
         * Archivistique
@@ -74,4 +74,16 @@ Pour plus d'exemples d'application des styles, visitez les pages [Balisage en Ma
 * Étiquetter
 * Créditer  
 {{< /fileTree >}}
-[^note]: Cette section sera propice à changements. Je devrai d'abord lister tous les liens utiles que j'ai accumulés au fil du temps afin de les regrouper. Peut-être que les étiquettes aideront à simplifier la structure.
+
+
+## À faire
+
+- [ ] Catégoriser les étiquettes
+- [ ] Régler le problème de date en anglais
+- [ ] Compléter mon cv
+- [ ] Enlever l'icône d'ancre avant les titres
+- [ ] Ajouter mes projets et publications
+- [ ] Terminer le transfert des publications de l'1nfograph3
+- [ ] Répertorier tous les liens à partager et les classer
+- [ ] Peaufiner le design
+- [ ] Ajouter un peu de Javascript

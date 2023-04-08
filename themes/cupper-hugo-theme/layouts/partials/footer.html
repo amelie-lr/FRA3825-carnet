@@ -8,7 +8,8 @@
       <span aria-hidden="true"></span>
     </label>
   </div>
-  {{ with .Site.Params.footer }}
+  {{ dateFormat "2006" now }} &copy; {{ .Site.Params.author }} | {{ with .Site.Params.footer }} 
     {{ . | markdownify }}
   {{ end }}
+  
 </footer>
