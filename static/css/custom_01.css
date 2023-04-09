@@ -160,6 +160,9 @@ h1 {
   margin-bottom: 2rem;
   text-transform: uppercase;
 }
+.h2-container a {
+  display: none !important;
+}
 .h2-container {
   margin-top: 1.5rem;
 }
@@ -191,6 +194,19 @@ main ul,
 main ol {
   margin-top: 0.5rem;
   margin-left: 1rem;
+}
+::marker + input {
+  display: none;
+}
+/* li > ul li::marker {
+  content: '– ';
+} */
+.nobullets ul {
+  margin-left: 20px;
+}
+.nobullets li {
+  list-style: none;
+  text-indent: -20px;
 }
 
 /* main post foot */

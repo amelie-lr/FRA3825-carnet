@@ -75,15 +75,20 @@ Pour plus d'exemples d'application des styles, visitez les pages [Balisage en Ma
 * Créditer  
 {{< /fileTree >}}
 
-
 ## À faire
 
-- [ ] Catégoriser les étiquettes
+<div class="nobullets">
+
+- [ ] Trouver pourquoi le footer ne se trouve pas dans le div.main-and-footer dans certaines pages
 - [ ] Régler le problème de date en anglais
+- [x] Enlever l'icône d'ancre avant les titres
+- [ ] Catégoriser les étiquettes (taxonomy)
 - [ ] Compléter mon cv
-- [ ] Enlever l'icône d'ancre avant les titres
+- [ ] Ajouter un bouton pour revenir au menu sur mobile
 - [ ] Ajouter mes projets et publications
 - [ ] Terminer le transfert des publications de l'1nfograph3
 - [ ] Répertorier tous les liens à partager et les classer
 - [ ] Peaufiner le design
 - [ ] Ajouter un peu de Javascript
+
+</div>

@@ -27,7 +27,7 @@ https://digitaldrummerj.me/hugo-links-to-other-pages/
 
 ### Thème  
 
-Thème à partir du projet [original Cupper](https://github.com/ThePacielloGroup/cupper)
+Thème à partir du projet [original Cupper](https://github.com/ThePacielloGroup/cupper) de Zachary Betz
 
 Simplifié par Margot Mellet dans le cadre du cours FRA3825-Pratiques de l'édition numérique donné à l'hiver 2023 à l'Université de Montréal, puis adapté et stylisé par moi-même.
 
