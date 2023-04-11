@@ -78,6 +78,9 @@ header {
 main .date {
   font-weight: bold;
 }
+main .date span {
+  font-weight: normal;
+}
 
 .patterns-list .date,
 .patterns-list .tags,

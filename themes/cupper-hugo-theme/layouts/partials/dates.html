@@ -1,0 +1,6 @@
+<div class="date">     
+    {{ .Date.Day }} {{ index $.Site.Data.mois (printf "%d" .Date.Month) }} {{ .Date.Year }}
+    <span>&nbsp;|&nbsp;
+    Dernière mise à jour : {{ .Lastmod.Day }} {{ index $.Site.Data.mois (printf "%d" .Lastmod.Month) }} {{ .Lastmod.Year }}
+    </span>
+</div>

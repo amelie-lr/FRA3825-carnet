@@ -17,8 +17,11 @@ Les sources ci-dessous ont aussi été utiles afin d'ajouter certains éléments
 - Code pour ajouter liens vers publication précédente et suivante  
 https://brianli.com/adding-next-previous-post-links-in-hugo/
 
-- Solution pour avoir les mois en français dans les dates de publication (je n'ai pas encore réussi à corriger les dates de modification par contre)  
+- Solution pour avoir les mois en français dans les dates de publication  
 https://jp.caruana.fr/posts/2020/02/22/franciser-la-date-dans-hugo/
+
+    ... mais celle-ci est plus simple et corrige aussi la date de modification  
+https://www.christopheducamp.com/2017/07/27/r1d4--mise-en-forme-des-dates-dans-gohugo/
 
 - Comment faire pour que les liens externes s'ouvrent automatiquement dans une nouvelle fenêtre/onglet  
 https://digitaldrummerj.me/hugo-links-to-other-pages/
